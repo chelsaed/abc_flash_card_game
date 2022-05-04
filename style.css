@@ -1,0 +1,106 @@
+body {
+    
+    background-color: #cccccc;
+    background: url(https://c.neh.tw/thumb/f/720/c02c346a1d1a4943b5af.jpg);
+    background-size:cover; 
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px;
+}
+
+.startButton{
+    position: center;
+    display: block;
+    width: 300px;
+    padding: 30px;
+    border: 5px solid rgb(199, 79, 79);
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: center;
+    border-radius: 100px;
+    padding: 14px 28px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 30%;
+} 
+
+nav .startButton{
+    text-align: center;
+    /* display: block; */
+    width: 200px;
+    padding: 30px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 0 0 8px 0 rgba(0,0,0,0.25); */
+    position: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin: auto;
+    padding: 4px 28px;
+   
+    cursor: pointer;
+ 
+}
+
+.letterFlashCard{
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card{
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card div{
+    font-size: 50px;
+    color: Black;
+
+}
+
+.hidden{
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
+    position: center;
+    background-color:purple
+}
+
+.letter:hover{
+    cursor: pointer;
+}
+
+.nextButton {
+  
+    width: 200px;
+    padding: 30px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 0 0 8px 0 rgba(0,0,0,0.25); */
+    position: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px 28px;
+    margin:auto;
+    cursor: pointer;
+}
+
+img{
+    max-width: 75%;
+    max-height: 50%;
+}
