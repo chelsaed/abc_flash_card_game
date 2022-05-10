@@ -13,5 +13,10 @@ nextButton = addEventListener('click', (target)=>{
     console.log('yay')
 })
 
-
+document.querySelectorAll('.letter').forEach((letter)=>{
+    letter.addEventListener('click', (e)=>{
+        console.log(e.target.innerHTML)
+        
+    })
+})
 

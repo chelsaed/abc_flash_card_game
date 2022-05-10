@@ -10,8 +10,11 @@ document.querySelectorAll('.letter').forEach((letter)=>{
     }
 })
     })
+    
 
 
+
+    
 
 // let guess = document.querySelector('.letter2')
 // guess.addEventListener('click', ()=> {
@@ -21,4 +24,4 @@ document.querySelectorAll('.letter').forEach((letter)=>{
 //     HTMLDivElement.onclick
 //         if (document.contains=="letter2".innerHTML)= "Correct!")
 //     }
-    // 
+// 
